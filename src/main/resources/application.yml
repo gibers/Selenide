@@ -1,0 +1,23 @@
+
+spring:
+  profiles:
+    active: dev
+
+---
+
+spring:
+  profiles: dev
+
+logging:
+  level:
+    root: info
+    com:
+      exemple:
+        selenide:
+          implementation: debug
+      switzerland:
+        youtube:
+          youtubedon: debug
+          domainService:
+            ManageDonateurs: debug
+
