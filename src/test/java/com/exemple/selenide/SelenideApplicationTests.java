@@ -21,7 +21,7 @@ class SelenideApplicationTests {
 
         $(By.name("button")).should(exist).click();
 
-        Thread.sleep(10000);
+//        Thread.sleep(10000);
 
 //        $("#submit").click();
 //        $(".loading_progress").should(disappear); // Waits until element disappears

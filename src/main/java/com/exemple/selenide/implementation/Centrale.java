@@ -1,8 +1,11 @@
 package com.exemple.selenide.implementation;
 
+import com.exemple.selenide.kotlin.Car;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
+
+import static com.exemple.selenide.kotlin.CarKt.topLevel;
 
 @Component
 public class Centrale {
@@ -11,6 +14,11 @@ public class Centrale {
 
     public void aff() {
         log.debug(String.format("Bonjour, je suis la classe centrale.") );
+
+        topLevel();
+
+//        Car car = new Car("mercedes", "noir", 2017);
+//        car.qui();
     }
 
 }
