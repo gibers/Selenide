@@ -1,11 +1,11 @@
 package com.exemple.selenide.implementation;
 
-import com.exemple.selenide.kotlin.Car;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import static com.exemple.selenide.kotlin.CarKt.topLevel;
+import static com.exemple.selenide.kotlin.StaticCar.topLevel;
+
 
 @Component
 public class Centrale {
