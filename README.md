@@ -12,7 +12,8 @@ Then there exists an n &isin; &#8469; such that: <br>
 n | (q-1) and <br>
 q | (b^[(q-1)/n] -1)
 
-<img src="CodeCogsEqn.gif">
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{W}(A,f)&space;=&space;(T,\bar{f})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathcal{W}(A,f)&space;=&space;(T,\bar{f})" title="\mathcal{W}(A,f) = (T,\bar{f})" /></a>
+
 
 <hr>
 
