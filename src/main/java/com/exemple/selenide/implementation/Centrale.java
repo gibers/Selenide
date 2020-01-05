@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
-import static com.exemple.selenide.kotlin.EnsembleKt.calcul;
+import static com.exemple.selenide.kotlin.EnsembleKt.calculEqu2;
 import static com.exemple.selenide.kotlin.StaticCar.topLevel;
 
 
@@ -19,7 +19,7 @@ public class Centrale {
     private static final Logger log = LoggerFactory.getLogger(Centrale.class);
 
     public void calculJava() {
-        calcul();
+        calculEqu2();
     }
 
     public void aff() {

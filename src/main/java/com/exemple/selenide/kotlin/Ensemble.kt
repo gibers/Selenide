@@ -3,13 +3,41 @@ package com.exemple.selenide.kotlin
 import java.io.File
 import kotlin.math.pow
 
-//fun main(args: Array<String>) {
-//    val listPrime = listPrime(10)
+fun main(args: Array<String>) {
+//    val listPrime = listPrime(1000)
 //    val MAX_VALUE: Int
-//    println (Integer.MAX_VALUE)
-//}
+//    println (listPrime)
+//    val li = (2..50 step 2).map { 7 * it +1 }
+//    rechercheN(23)
+}
 
-fun calcul(): Unit {
+fun rechercheN(q: Int): MutableList<Int> {
+
+    var listNResult = mutableListOf<Int>()
+    val maxDesN = (q-1)/2
+
+//    println(listPrime(100))
+
+    for(n in 2..(maxDesN) step 2) {
+        val r2 = 2.0.pow((q-1)/n) -1
+        println("q = $q; n = $n; r2 = $r2 et le reste est : ${r2 % q}")
+        if (r2 % q == 0.0) {
+            listNResult.add(n)
+            println(n)
+        }
+    }
+
+    println(listNResult)
+
+    return listNResult
+}
+
+/**
+ * fill file fichier1.txt with n=1; the first 10 Prime number q; for each q, the first 10 number b
+ * such that q doesn't divise b.
+ *
+ */
+fun calculEqu2(): Unit {
 
     val chaine: MutableMap<Int, EnsembleNb> = mutableMapOf()
     val listPrime = listPrime(10)
@@ -21,11 +49,11 @@ fun calcul(): Unit {
 }
 
 fun writeToFile(chaine: MutableMap<Int, EnsembleNb>) {
-
     val file = File("fichier1.txt")
     val writer = file.writer()
+    writer.append("We check equ2 for n=1 : \n\n")
     chaine.forEach { (t, u) ->
-        writer.append("pour Q = $t, on a : ${u.areAllMultipleOfQ()} \n ${u.aff()} \n")
+        writer.append("pour Q = $t, on a : ${u.areAllMultipleOfQ()} \n ${u.aff()} \n\n")
     }
     writer.close()
 }
