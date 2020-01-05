@@ -9,16 +9,9 @@ Fermat’s little theorem:
 Let b &isin; &#8469; <br> 
 q a prime such that q does not divide b. <br>
 Then there exists an n &isin; &#8469; such that: <br>
-n | (q-1) and <br>
-q | (b^[(q-1)/n] -1)
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{W}(A,f)&space;=&space;(T,\bar{f})" 
-target="_blank">
-<img src="https://latex.codecogs.com/gif.latex?\mathcal{W}(A,f)&space;=&space;(T,\bar{f})" title="\mathcal{W}(A,f) = (T,\bar{f})" />
-</a>
-
-
-<img src="https://latex.codecogs.com/gif.latex?\mathcal{W}(A,f)&space;=&space;(T,\bar{f})" title="\mathcal{W}(A,f) = (T,\bar{f})" />
+<a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;n&space;\:&space;divise&space;\,&space;\right.&space;\left&space;(&space;q-1&space;\right&space;)&space;\left." target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;n&space;\:&space;divise&space;\,&space;\right.&space;\left&space;(&space;q-1&space;\right&space;)&space;\left." title="\LARGE n \: divise \, \right. \left ( q-1 \right ) \left." /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;q&space;\:&space;divise&space;\,\left&space;\{&space;\right.&space;b^{\left&space;(&space;\frac{q-1}{n}&space;\right&space;)}&space;-1&space;\left.&space;\right&space;\}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;q&space;\:&space;divise&space;\,\left&space;\{&space;\right.&space;b^{\left&space;(&space;\frac{q-1}{n}&space;\right&space;)}&space;-1&space;\left.&space;\right&space;\}" title="\LARGE q \: divise \,\left \{ \right. b^{\left ( \frac{q-1}{n} \right )} -1 \left. \right \}" /></a>
 
 
 <hr>
