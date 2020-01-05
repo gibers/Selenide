@@ -14,7 +14,10 @@ Then there exists an n &isin; &#8469; such that: <br>
 <br> and <br>
 <a href="https://www.codecogs.com/eqnedit.php?latex=\LARGE&space;q&space;\:&space;divise&space;\,\left&space;\{&space;\right.&space;b^{\left&space;(&space;\frac{q-1}{n}&space;\right&space;)}&space;-1&space;\left.&space;\right&space;\}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\LARGE&space;q&space;\:&space;divise&space;\,\left&space;\{&space;\right.&space;b^{\left&space;(&space;\frac{q-1}{n}&space;\right&space;)}&space;-1&space;\left.&space;\right&space;\}" title="\LARGE q \: divise \,\left \{ \right. b^{\left ( \frac{q-1}{n} \right )} -1 \left. \right \}" /></a> <equ2>
 <br>
-see fichier1.txt
+
+<hr>
+
+For n=1; see fichier1.txt
 
 <hr>
 

@@ -63,22 +63,22 @@ fun listPrime(nb: Int): List<Int> {
     val listPrime = mutableListOf<Int>()
     var deb = 2
     while(listPrime.size < nb) {
-        val ele: Int? = (deb..999999).find { isPrime(it) }
+        val ele: Int? = (deb..Int.MAX_VALUE).find { isPrime(it) }
         listPrime.add(ele!!)
         deb = ele + 1
     }
     return listPrime
 }
 
-
+// Todo: si (somme des chiffres d'un nombre) = 3; alors ce nombre est un multiple de 3.
+// Todo: à vérifier avec les 1000 premiers nb premiers.
 fun isPrime(nb: Int): Boolean {
-    if ( nb == 2 || nb == 5 )
-        return true
-    else if(nb.toString().last() in arrayOf('0', '2', '4', '5', '6', '8'))
-        return false
-    else if( (2..(nb / 2)).any { nb % it == 0 } )
-        return false
-    return true
+    return when {
+        ( nb == 2 || nb == 5 ) -> true
+        (nb.toString().last() in arrayOf('0', '2', '4', '5', '6', '8')) -> false
+        (2..(nb / 2)).any { nb % it == 0 } -> false
+        else -> true
+    }
 }
 
 fun afficheChaine(chaine: MutableMap<Int, EnsembleNb>) {
