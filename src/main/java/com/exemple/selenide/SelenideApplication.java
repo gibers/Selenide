@@ -24,6 +24,6 @@ public class SelenideApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Centrale centrale = ctx.getBean(Centrale.class);
-        centrale.aff();
+        centrale.calculJava();
     }
 }

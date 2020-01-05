@@ -1,6 +1,9 @@
 # 
+run application with : mvn clean spring-boot:run
 
-run application with : 
+<hr>
 
-mvn spring-boot:run
+We check 
+
+
 
