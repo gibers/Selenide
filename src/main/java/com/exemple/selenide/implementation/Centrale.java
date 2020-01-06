@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 import static com.exemple.selenide.kotlin.EnsembleKt.calculEqu2;
+import static com.exemple.selenide.kotlin.EnsembleKt.calculListDiviseurQ;
 import static com.exemple.selenide.kotlin.StaticCar.topLevel;
 
 
@@ -20,6 +21,7 @@ public class Centrale {
 
     public void calculJava() {
         calculEqu2();
+        calculListDiviseurQ();
     }
 
     public void aff() {
